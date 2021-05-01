@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+	<header>
+		<title>Practica 1 - Administacion de archivos</title>
+	</header>
+	<body>
+		<h2>Practica 1- ADMINISTRACION DE ARCHIVOS</h2>
+		<p>Codifica un archivo PDF a BASE64</p>
+		<div>
+			<label> Seleccione un archivo:</label>
+		</div>
+		<div>
+			<input type="file" id="files" name="arrayFiles" multiple accept=".pdf" required/>
+		</div>
+		<div>
+			<p></p>
+			<label>Nombre del PDF en BASE64:</label>
+			<label id="base64Name">??</label>
+			<p>Contendido del documento:</p>
+			<textarea id="base64"  rows="15" cols="120"></textarea>
+		</div>
+		<script src="controller.js"></script>
+	</body>
+</html>
